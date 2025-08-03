@@ -13,7 +13,7 @@ Future<void> main() async {
   try {
     
     logger.i('Initializing Firebase...');
-    await FirebaseConfig.nitialize();
+    await FirebaseConfig.initialize();
     
     
     logger.i('Configuring dependencies...');

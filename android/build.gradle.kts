@@ -19,8 +19,3 @@ subprojects {
 tasks.register<Delete>("clean") {
     delete(rootProject.layout.buildDirectory)
 }
-
-plugins {
-    kotlin("android") version "2.1.0" apply false
-    id("com.google.gms.google-services") version "4.4.3" apply false
-}
